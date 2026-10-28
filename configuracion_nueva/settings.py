@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-txx0t76!fzhcx+ruc#b@8(p24$w=ad#pzdojta2yo5148(-_y5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'mitienda.online']
+ALLOWED_HOSTS = [
+    '127.0.0.1', 'localhost', 'mitienda.online']
 
 
 # Application definition
@@ -39,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Tu nueva app:
     'accounts',
+    # Tus aplicaciones
+    'productos',
+    'pedidos',
 ]
 
 MIDDLEWARE = [
