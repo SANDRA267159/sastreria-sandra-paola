@@ -41,3 +41,5 @@ Especificación de los modelos de datos principales:
 
 ### 5. Codificación (Coding)
 Inicio del desarrollo del código fuente, configurando el entorno en Docker, el backend de Django, el panel administrativo y las rutas del repositorio en GitHub.
+### Repositorio Oficial del Proyecto
+https://github.com/SANDRA267159/sastreria-sandra-paola
